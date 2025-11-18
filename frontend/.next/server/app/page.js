@@ -144,28 +144,6 @@ module.exports = require("net");
 
 /***/ }),
 
-/***/ "os":
-/*!*********************!*\
-  !*** external "os" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("os");
-
-/***/ }),
-
-/***/ "path":
-/*!***********************!*\
-  !*** external "path" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("path");
-
-/***/ }),
-
 /***/ "punycode":
 /*!***************************!*\
   !*** external "punycode" ***!
@@ -251,6 +229,26 @@ module.exports = require("node:crypto");
 
 "use strict";
 module.exports = require("node:url");
+
+/***/ }),
+
+/***/ "?32c4":
+/*!****************************!*\
+  !*** bufferutil (ignored) ***!
+  \****************************/
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ "?66e9":
+/*!********************************!*\
+  !*** utf-8-validate (ignored) ***!
+  \********************************/
+/***/ (() => {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -393,7 +391,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@solana","vendor-chunks/tr46","vendor-chunks/@noble","vendor-chunks/@solana-mobile","vendor-chunks/ws","vendor-chunks/bn.js","vendor-chunks/qrcode","vendor-chunks/pngjs","vendor-chunks/node-fetch","vendor-chunks/whatwg-url","vendor-chunks/rpc-websockets","vendor-chunks/text-encoding-utf-8","vendor-chunks/@wallet-standard","vendor-chunks/borsh","vendor-chunks/uuid","vendor-chunks/jayson","vendor-chunks/node-gyp-build","vendor-chunks/dijkstrajs","vendor-chunks/webidl-conversions","vendor-chunks/base-x","vendor-chunks/@swc","vendor-chunks/utf-8-validate","vendor-chunks/safe-buffer","vendor-chunks/bufferutil","vendor-chunks/bs58"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2Froot%2Fackee%2Fprogram-OxCheatcode%2Ffrontend%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Froot%2Fackee%2Fprogram-OxCheatcode%2Ffrontend&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@solana","vendor-chunks/qrcode","vendor-chunks/pngjs","vendor-chunks/@noble","vendor-chunks/uuid","vendor-chunks/ws","vendor-chunks/@wallet-standard","vendor-chunks/@swc","vendor-chunks/whatwg-url","vendor-chunks/@solana-mobile","vendor-chunks/rpc-websockets","vendor-chunks/tr46","vendor-chunks/jayson","vendor-chunks/node-fetch","vendor-chunks/webidl-conversions","vendor-chunks/text-encoding-utf-8","vendor-chunks/safe-buffer","vendor-chunks/dijkstrajs","vendor-chunks/bs58","vendor-chunks/borsh","vendor-chunks/bn.js","vendor-chunks/base-x"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2Froot%2Fackee%2Fprogram-OxCheatcode%2Ffrontend%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Froot%2Fackee%2Fprogram-OxCheatcode%2Ffrontend&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
