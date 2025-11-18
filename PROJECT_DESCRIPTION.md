@@ -1,6 +1,6 @@
 # Solana Escrow dApp
 
-**Deployed Frontend URL:** http://localhost:3000 (Local deployment)
+**Deployed Frontend URL:** [EscrowFi DApp](https://escrowfi.vercel.app/)
 
 **Solana Program ID:** `BGewPFMdAV2kwwfhxAbqGq4bohXsiB9LZmSw8R99QmZ8`
 
@@ -23,7 +23,7 @@ This dApp demonstrates core Solana concepts including Program Derived Addresses 
 ### How to Use the dApp
 
 1. **Connect Wallet**
-   - Visit the frontend at http://localhost:3000
+   - Visit the frontend at [EscrowFi DApp](https://escrowfi.vercel.app/)
    - Click "Connect Wallet" and approve the connection with Phantom or Solflare wallet
    - Ensure you have SOL in your wallet (for devnet/localnet testing, use `solana airdrop`)
 
@@ -211,9 +211,7 @@ anchor run test
   5 passing (2s)
 ```
 
-### Additional Notes for Evaluators
-
-- **Local Development:** This project is currently configured for local development with `solana-test-validator`. The frontend connects to `http://localhost:8899` by default.
+### Additional Notes for Evaluators!
   
 - **PDA Design Choice:** The decision to use `[b"listing", seller.key()]` as PDA seeds means each seller can only have one active listing at a time. This is a simplification for the initial implementation. A production version would include a unique identifier (UUID or counter) to support multiple listings per seller.
 
